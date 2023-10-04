@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+.communiteContainerAll {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.psotsControl {
+  /* border: 1px solid black; */
+  width: 220px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createPost i {
+  font-size: 2em;
+}
+
+.createPostBtn {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 2em;
+  width: 7em;
+  background-image: linear-gradient(to bottom right, #4581fa, #77a8f8);
+  cursor: pointer;
+}
+
+.createPostBtn:focus {
+  outline: none;
+}
+
+.thePost {
+  border: 1px solid black;
+  background-color: rgb(215, 215, 215);
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.postComments {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.theComment {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.newPost {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+
+.commentInputField {
+  width: 80%;
+}

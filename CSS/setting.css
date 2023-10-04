@@ -1,0 +1,55 @@
+*{
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+body{
+    background-image: linear-gradient(to bottom right, #f8f8f8, #97bbff);
+}
+.setting-container{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.setting-container form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    align-items: center;
+}
+.setting-container .label-title{
+    font-size: 22px;
+}
+
+.setting-container .input-field{
+    height: 50px;
+}
+.setting-container .change{
+    margin-top: 25px;
+}
+.setting-container .change button{
+font-size: 22px;
+border-radius: 15px;
+padding: 10px;
+border-color: transparent;
+cursor: pointer;
+transition: 0.5s;
+}
+.setting-container .change button:hover{
+    background-color: #afadadad;
+}
+.setting-container .logout{
+    margin: 100px auto;
+}
+.setting-container .logout button{
+font-size: 22px;
+border-radius: 20px;
+padding: 20px;
+background-color: #a51515;
+color: white;
+border-color: transparent;
+cursor: pointer;
+transition: 0.5s;
+}
+.setting-container .logout button:hover{
+    background-color: #4e0b0bc4;
+}

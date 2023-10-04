@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/rank.css" />
+    <link
+      rel="stylesheet"
+      href="../bootStrap/cdn.jsdelivr.net_npm_bootstrap@4.0.0_dist_css_bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../bootStrap/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.15.4_css_all.min.css"
+    />
+
+    <title>Rank</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse change--div"
+        id="navbarTogglerDemo01"
+      >
+        <a class="navbar-brand" href="./main.html">AQua Water</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <span class="nav-link">Hello, Ali</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link">
+              # <span class="user--rank">302</span>
+            </span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link disabled">
+              Balance: <span class="user--balance">7090</span>
+            </span>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-bar">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <!-- Icons -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link setting-icon" href="#">
+              <i class="fa fa-cog"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link notafication-icon" href="#">
+              <i class="fa fa-bell"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--------------------------------------------------------------------------->
+    <div class="rank--Container">
+      <h1>Users Rank</h1>
+      <div class="rankData">
+        <div class="theRank">
+          <h4 class="user--rank--name">Ahmed Samy</h4>
+          <div class="rank--number">1</div>
+        </div>
+        <div class="theRank">
+          <h4 class="user--rank--name">Youssef Faisal</h4>
+          <div class="rank--number">2</div>
+        </div>
+        <div class="theRank">
+          <h4 class="user--rank--name">Ammar Elmihy</h4>
+          <div class="rank--number">3</div>
+        </div>
+        <div class="theRank">
+          <h4 class="user--rank--name">Mohamed Tarek</h4>
+          <div class="rank--number">4</div>
+        </div>
+      </div>
+    </div>
+    <script src="../Data/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9bec9fd168.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../bootStrap/all.min.js" />
+    <link rel="stylesheet" href="../bootStrap/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="../bootStrap/bootstrap.bundle.min.js.map" />
+  </body>
+</html>
